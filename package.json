@@ -1,0 +1,56 @@
+{
+  "name": "HastyHeroes",
+  "version": "1.0.0",
+  "homepage": "https://aveek-saha.github.io",
+  "description": "An endless 2D jumping game, select a avatar and start playing",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "repository": "https://github.com/Aveek-Saha/HastyHeroes",
+  "keywords": [
+    "Game",
+    "2D",
+    "Hero",
+    "Fun",
+    "Jump"
+  ],
+  "build": {
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "maintainer": "Aveek <aveek.s98@gmail.com>",
+      "icon": "build/icon",
+      "category": "Game"
+    },
+    "win": {
+      "target": "squirrel",
+      "icon": "build/icon.ico"
+    }
+  },
+  "author": "Aveek Saha",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-builder": "19.47.1",
+    "electron-packager": "^11.1.0"
+  }
+}

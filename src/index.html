@@ -1,0 +1,42 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8" />
+	<title>Hasty Heroes!</title>
+	<script type="text/javascript" src="js/phaser.min.js"></script>
+	<script type="text/javascript" src="js/boot.js"></script>
+	<script type="text/javascript" src="js/preload.js"></script>
+	<script type="text/javascript" src="js/gametitle.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/gameover.js"></script>
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+    </style>
+	<script type="text/javascript">
+		window.addEventListener('resize', function () {
+				"use strict";
+				window.location.reload();
+			});
+		(function() {
+
+				//Create a new game that fills the screen
+				game = new Phaser.Game(window.innerWidth * window.devicePixelRatio, window.innerHeight * window.devicePixelRatio, Phaser.AUTO);
+				
+				//Add all states
+				game.state.add("Boot", Boot);
+				game.state.add("Preload", Preload);
+				game.state.add("GameTitle", GameTitle);
+				game.state.add("Main", Main);
+				game.state.add("GameOver", GameOver);
+
+				//Start the first state
+				game.state.start("Boot");
+
+		})();
+    </script>
+</head>
+<body>
+</body>
+</html>
