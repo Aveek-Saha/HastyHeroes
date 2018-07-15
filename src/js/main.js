@@ -8,9 +8,9 @@ Main.prototype = {
 	create: function() {
 
 		score = 0;
-		this.timing2 = 1500;
+		this.timing2 = 2000;
 		this.timing = 2000;
-		this.vel = 200;
+		this.vel = 140;
 		this.spikeVel = (this.game.world.height * 1000) / this.timing2;
 		
 		this.jumping = false;
@@ -63,10 +63,10 @@ Main.prototype = {
 		}
 
 		if (this.cursors.up.isDown && this.player.body.wasTouching.down) {
-			if (score <= 6) 
-				this.player.body.velocity.y = -1300;
-			else
-				this.player.body.velocity.y = -1175;
+			// if (score <= 7) 
+			// 	this.player.body.velocity.y = -1250;
+			// else
+				this.player.body.velocity.y = -1100;
 				
 		}
 		if (this.cursors.left.isDown) {
@@ -141,7 +141,7 @@ Main.prototype = {
 		var spike = this.spikes.getFirstDead();
 
 		if (this.timing2 > 500) {
-			this.timing2 -= 100;
+			this.timing2 -= 5;
 			this.spikeVel = (this.game.world.height * 1000) / this.timing2;
 		}
 		
@@ -167,7 +167,7 @@ Main.prototype = {
 		var tilesNeeded = Math.ceil(this.game.world.width / this.tileWidth);
 		// console.log(this.game.world.width / this.tileWidth);
 		
-		var y = (this.tileHeight);
+		var y = (-this.tileHeight);
 
 		for (var i = 0; i < tilesNeeded; i++) {
 			

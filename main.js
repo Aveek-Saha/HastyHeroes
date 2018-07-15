@@ -2,15 +2,25 @@
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
 const url = require('url')
+const electron = require('electron');
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
 
 function createWindow () {
+
+  var screenElectron = electron.screen;
+  var mainScreen = screenElectron.getPrimaryDisplay();
+  var dimensions = mainScreen.size;
+
+// console.log(dimensions.width + "x" + dimensions.height);
+
   // Create the browser window.
-  mainWindow = new BrowserWindow({ width: 787, height: 790, minWidth: 700
-    , icon: path.join(__dirname, '/icon/256x256.png')})
+  mainWindow = new BrowserWindow({ width: (dimensions.width/2) + (dimensions.width/2)%64 
+    , height: dimensions.height, resizable: false
+    , icon: path.join(__dirname, '/icon.ico')})
+    // , icon: path.join(__dirname, '/icon/256x256.png')})
 
   // and load the index.html of the app.
   mainWindow.loadURL(url.format({
