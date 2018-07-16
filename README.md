@@ -18,3 +18,6 @@ Clone the repository, then navigate to it on your terminal and run ```npm instal
   <li>Press the up key to jump</li>
   <li>Dont fall below the screen, and dont hit the Spike Balls</li>
 </ul>
+
+#  Credits
+The game assets including the background and the tiles were made by <a href="http://kenney.nl">Kenny</a>, the character sprites were made by <a href="https://swapnilrane24.itch.io/square-characters"> MadFireOn</a>, and the idea for the game was inspired  by a tutorial from <a href="https://www.joshmorony.com/build-a-flappy-bird-jetpack-joyride-hybrid-game-in-phaser/"> Joshmorony</a>. 
