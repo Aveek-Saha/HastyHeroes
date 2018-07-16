@@ -1,6 +1,6 @@
 # Hasty Heroes
 
-An endless 2D jumping game, select a avatar, choose a environment and start playing. Dont fal off the platforms and dont hit the spike balls!
+An endless 2D jumping game, select a avatar, choose a environment and start playing. Dont fall off the platforms and dont hit the spike balls!
 
 
 # How to Play/ Build
