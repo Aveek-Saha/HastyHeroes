@@ -1,5 +1,8 @@
 # Hasty Heroes
 
+[![Github All Releases](https://img.shields.io/github/downloads/aveek-saha/HastyHeroes/total.svg?style=for-the-badge)](https://github.com/Aveek-Saha/HastyHeroes) [![GitHub license](https://img.shields.io/github/license/Aveek-Saha/HastyHeroes.svg?style=for-the-badge)](https://github.com/Aveek-Saha/HastyHeroes/blob/master/LICENSE.md)
+
+
 An endless 2D jumping game, select a avatar, choose a environment and start playing. Dont fall off the platforms and dont hit the spike balls!
 
 
