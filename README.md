@@ -22,5 +22,8 @@ Clone the repository, then navigate to it on your terminal and run ```npm instal
   <li>Dont fall below the screen, and dont hit the Spike Balls</li>
 </ul>
 
+### If you liked this, check out My colaborative task app, where you can create groups with your team and make to-dos and task lists
+https://taskifyyy.firebaseapp.com
+
 #  Credits
 The game assets including the background and the tiles were made by <a href="http://kenney.nl">Kenny</a>, the character sprites were made by <a href="https://swapnilrane24.itch.io/square-characters"> MadFireOn</a>, and the idea for the game was inspired  by a tutorial from <a href="https://www.joshmorony.com/build-a-flappy-bird-jetpack-joyride-hybrid-game-in-phaser/"> Joshmorony</a>. 
