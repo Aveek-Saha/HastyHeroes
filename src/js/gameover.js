@@ -30,7 +30,7 @@ GameOver.prototype = {
 		this.scoreLabel.anchor.setTo(0.5, 0.5);
 		this.scoreLabel.align = 'center';
 		this.game.world.bringToTop(this.scoreLabel);
-		this.scoreLabel.text = "You survived for "+ (score - 2) +" seconds";
+		this.scoreLabel.text = "You survived for "+ (score) +" seconds";
 
 		this.highScore = this.game.add.bitmapText(this.game.world.centerX, 
 			this.game.world.centerY, "myfont", "0", 60);
@@ -42,11 +42,11 @@ GameOver.prototype = {
 
 		if (this.hs == null) {
 			this.highScore.setText("High score: "+score);
-			window.localStorage.setItem('highScore', score - 2)
+			window.localStorage.setItem('highScore', score)
 		}
-		else if (parseInt(this.hs) < score - 2) {
-			this.highScore.setText("High score: " +(score - 2));
-			window.localStorage.setItem('highScore', score - 2)
+		else if (parseInt(this.hs) < score) {
+			this.highScore.setText("High score: " +(score));
+			window.localStorage.setItem('highScore', score )
 			
 		}
 		else{

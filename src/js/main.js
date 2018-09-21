@@ -46,7 +46,7 @@ Main.prototype = {
 
 		this.timer = game.time.events.loop(this.timing, this.addPlatform, this);
 		this.timer2 = game.time.events.loop(this.timing2, this.addSpike, this);
-		this.Scoretimer = game.time.events.loop(1000, this.incrementScore, this);
+		this.scoreTimer = game.time.events.loop(1000, this.incrementScore, this);
 
 
 		this.createPlayer();
@@ -209,15 +209,12 @@ Main.prototype = {
 	},
 
 	incrementScore: function () {
-
-
+		if (!this.player.alive) return
 		score += 1;
 		this.scoreLabel.setText(score);
 		this.game.world.bringToTop(this.scoreLabel);
 		this.highScore.setText("HS: "+window.localStorage.getItem('highScore'));		
 		this.game.world.bringToTop(this.highScore);
-		
-
 	},
 
 	createPlayer: function () {
