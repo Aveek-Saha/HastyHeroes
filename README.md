@@ -1,4 +1,11 @@
-# Hasty Heroes
+
+<h1 align="center">
+Hasty Heroes<br>
+
+<img src ="https://img.shields.io/github/downloads/Aveek-Saha/HastyHeroes/total.svg?style=flat-square">
+<img src ="https://img.shields.io/github/stars/Aveek-Saha/HastyHeroes.svg?style=flat-square">
+<img src ="https://img.shields.io/github/forks/Aveek-Saha/HastyHeroes.svg?style=flat-square">
+</h1>
 
 [![Github All Releases](https://img.shields.io/github/downloads/aveek-saha/HastyHeroes/total.svg?style=for-the-badge)](https://github.com/Aveek-Saha/HastyHeroes) [![GitHub license](https://img.shields.io/github/license/Aveek-Saha/HastyHeroes.svg?style=for-the-badge)](https://github.com/Aveek-Saha/HastyHeroes/blob/master/LICENSE.md)
 
