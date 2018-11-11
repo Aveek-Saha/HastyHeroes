@@ -2,10 +2,14 @@
 <h1 align="center">
 Hasty Heroes<br>
 
+</h1>
+<h3 align="center">
+
 <img src ="https://img.shields.io/github/downloads/Aveek-Saha/HastyHeroes/total.svg?style=flat-square">
 <img src ="https://img.shields.io/github/stars/Aveek-Saha/HastyHeroes.svg?style=flat-square">
 <img src ="https://img.shields.io/github/forks/Aveek-Saha/HastyHeroes.svg?style=flat-square">
-</h1>
+</h3>
+
 
 
 An endless 2D jumping game, select a avatar, choose a environment and start playing. Dont fall off the platforms and dont hit the spike balls!
