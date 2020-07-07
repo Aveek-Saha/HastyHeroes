@@ -49,7 +49,7 @@
   "author": "Aveek Saha",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^2.0.0",
+    "electron": "^7.2.4",
     "electron-builder": "19.47.1",
     "electron-packager": "^11.1.0"
   }
