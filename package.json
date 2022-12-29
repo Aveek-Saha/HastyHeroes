@@ -50,7 +50,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^2.0.0",
-    "electron-builder": "19.47.1",
+    "electron-builder": "23.6.0",
     "electron-packager": "^11.1.0"
   }
 }
